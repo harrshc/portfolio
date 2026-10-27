@@ -3,7 +3,7 @@ import { motion, useMotionValue, useSpring, useTransform, useReducedMotion } fro
 import { Github, Linkedin, Mail, Sparkles, Terminal as TermIcon, ExternalLink, Trophy } from 'lucide-react'
 import Boot from './components/Boot'
 import Terminal from './components/Terminal'
-import { profile, skills, projects, timeline, achievements, Status } from './data'
+import { profile, skills, projects, timeline, Status } from './data'
 
 const label: Record<Status, string> = { interest: 'Interest', learning: 'Learning', verified: 'Verified' }
 
@@ -123,11 +123,6 @@ export default function App() {
 
         <Section id="journey" title="Experience & learning">
           <ol className="tl">{timeline.map(t => <motion.li key={t.title} {...reveal}><time>{t.when}</time><h3>{t.title}</h3><p>{t.body}</p></motion.li>)}</ol>
-        </Section>
-
-        <Section id="achievements" title="Achievements">
-          {achievements.length ? <div className="cards">{achievements.map(a => <div className="card" key={a.title}><Trophy size={18} /><h3>{a.title}</h3><p>{a.detail}</p></div>)}</div>
-            : <div className="card empty"><p>No achievements listed yet. Add real ones to <code>achievements</code> in <code>src/data.ts</code> and they will appear here.</p></div>}
         </Section>
 
         <Section id="contact" title="Contact">
