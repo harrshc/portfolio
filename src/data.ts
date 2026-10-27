@@ -29,10 +29,10 @@ export const skills: { name: string; status: Status; note: string }[] = [
 // ✏️ Replace these samples with real projects. Remove `sample: true` when real.
 export const projects = [
   { 
-    title: 'Project name goes here', 
-    desc: 'Describe what you built, why, and what you learned. Replace this sample.', 
-    stack: ['Linux', 'Bash'], 
-    repo: 'https://github.com/harrshc', 
+    title: 'None', 
+    desc: '', 
+    stack: ['', ''], 
+    repo: '', 
     demo: '', 
     sample: true 
   },

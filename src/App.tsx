@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, useMotionValue, useSpring, useTransform, useReducedMotion } from 'framer-motion'
-import { Github, Linkedin, Mail, Sparkles, Terminal as TermIcon, ExternalLink, Trophy } from 'lucide-react'
+import { Github, Linkedin, Mail, Sparkles, Terminal as TermIcon, ExternalLink} from 'lucide-react'
 import Boot from './components/Boot'
 import Terminal from './components/Terminal'
 import { profile, skills, projects, timeline, Status } from './data'
