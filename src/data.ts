@@ -20,28 +20,54 @@ export const skills: { name: string; status: Status; note: string }[] = [
   { name: 'Fedora', status: 'interest', note: 'Part of the Red Hat family I want to learn more about.' },
   { name: 'Git', status: 'interest', note: 'Version control for every project.' },
   { name: 'GitHub', status: 'interest', note: 'Hosting code and this portfolio.' },
-  { name: 'Blender', status: 'interest', note: 'Creating ideas into 3D models.' },
+  { name: 'Blender', status: 'learning', note: 'Creating ideas into 3D models.' },
   { name: 'Cybersecurity fundamentals', status: 'learning', note: 'Learning the basics, step by step.' },
   { name: 'Red Hat', status: 'interest', note: 'Enterprise Linux ecosystem.' },
-  { name: 'OpenShift', status: 'interest', note: 'Container platform I want to explore.' },
+  { name: 'OpenShift', status: 'learning', note: 'Container platform I want to explore.' },
 ]
 
 // ✏️ Replace these samples with real projects. Remove `sample: true` when real.
 export const projects = [
-  { title: 'Project name goes here', desc: 'Describe what you built, why, and what you learned. Replace this sample.', stack: ['Linux', 'Bash'], repo: 'https://github.com/harrshc', demo: '', sample: true },
-  { title: 'Another project', desc: 'A second sample card. Add your repository link and a live demo URL if you have one.', stack: ['Python', 'Git'], repo: 'https://github.com/harrshc', demo: '', sample: true },
-  { title: 'Lab notes / dotfiles', desc: 'Idea: publish your Linux configs or write-ups as a repository.', stack: ['Fedora', 'Shell'], repo: 'https://github.com/harrshc', demo: '', sample: true },
+  { 
+    title: 'Project name goes here', 
+    desc: 'Describe what you built, why, and what you learned. Replace this sample.', 
+    stack: ['Linux', 'Bash'], 
+    repo: 'https://github.com/harrshc', 
+    demo: '', 
+    sample: true 
+  },
 ]
 
 // ✏️ Add your real learning milestones (courses, workshops, contributions).
 export const timeline = [
-  { when: 'June 2024-August 2024', title: 'Game Developer intern at Waytoweb Solutions', body: 'Here I learnt core of C# and Unity game engine.' },
-  { when: 'Add date', title: 'Cybersecurity fundamentals', body: 'Placeholder: add the courses, labs or CTFs you actually did.' },
-  { when: 'Add date', title: 'Red Hat learning path', body: 'Placeholder: add workshops or certifications only if real.' },
-]
-
-// ✏️ Only real achievements. Leave empty to show the invitation card.
-export const achievements: { title: string; detail: string }[] = [
-  { title: 'SSIP Gujarat-Project manager', detail: 'My first ever Hackathon where I got to know how to represent your project on the problem given to you and how to represent yourself as per presentation point of view, I did a bit of Frontend development, Research work and Documentation of the project. Which logically means i mostly did Project Managing.' },
-  { title: 'Another one', detail: 'Same idea.' },
+  {
+    when: 'Nov 2023', 
+    title: 'SSIP Gujarat - Project manager', 
+    body: 'Placeholder: add the courses, labs or CTFs you actually did.',
+  },
+  { 
+    when: 'Jun 2024 - Aug 2024',
+    title: 'Game Developer intern at Waytoweb Solutions', 
+    body: 'Here I learnt core of C# and Unity game engine.' 
+  },
+  {
+    when: 'Sep 2025',
+    title: '3D character model in Blender',
+    body: 'Sculpted and textured a character called "Mechatronnn" while following the Model Video Game Characters course by GameDev.tv. Still learning, and shared it publicly.',
+  },
+  {
+    when: 'Aug 2026',
+    title: 'HackSpace Cyber Club inauguration',
+    body: 'Part of the team behind the launch of the HackSpace Cyber Club at Parul University, which included a "Hack the Hacker" activity and a cybersecurity webinar.',
+  },
+  {
+    when: 'Sep 2026',
+    title: 'CTF Unlocked, HackSpace Club',
+    body: 'Part of the organising team for a hands-on Capture The Flag session for students, handling event management and coordination.',
+  },
+  { 
+    when: 'Oct 2026',
+    title: 'Red Hat India Challenge 2026 workshop, Parul University',
+    body: 'Part of the Red Hat core team that prepared and ran a technical workshop as a speaker on Linux basics, RHEL, Podman, Kubernetes and OpenShift, followed by a 40-question OpenShift quiz.',
+  },
 ]
