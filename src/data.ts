@@ -20,8 +20,7 @@ export const skills: { name: string; status: Status; note: string }[] = [
   { name: 'Fedora', status: 'interest', note: 'Part of the Red Hat family I want to learn more about.' },
   { name: 'Git', status: 'interest', note: 'Version control for every project.' },
   { name: 'GitHub', status: 'interest', note: 'Hosting code and this portfolio.' },
-  { name: 'Python', status: 'interest', note: 'Scripting and automation.' },
-  { name: 'Bash', status: 'interest', note: 'Shell scripting on Linux.' },
+  { name: 'Blender', status: 'interest', note: 'Creating ideas into 3D models.' },
   { name: 'Cybersecurity fundamentals', status: 'learning', note: 'Learning the basics, step by step.' },
   { name: 'Red Hat', status: 'interest', note: 'Enterprise Linux ecosystem.' },
   { name: 'OpenShift', status: 'interest', note: 'Container platform I want to explore.' },
@@ -36,10 +35,13 @@ export const projects = [
 
 // ✏️ Add your real learning milestones (courses, workshops, contributions).
 export const timeline = [
-  { when: 'Add date', title: 'Started with Linux', body: 'Placeholder: write when and how your Linux journey began.' },
+  { when: 'June 2024-August 2024', title: 'Game Developer intern at Waytoweb Solutions', body: 'Here I learnt core of C# and Unity game engine.' },
   { when: 'Add date', title: 'Cybersecurity fundamentals', body: 'Placeholder: add the courses, labs or CTFs you actually did.' },
   { when: 'Add date', title: 'Red Hat learning path', body: 'Placeholder: add workshops or certifications only if real.' },
 ]
 
 // ✏️ Only real achievements. Leave empty to show the invitation card.
-export const achievements: { title: string; detail: string }[] = []
+export const achievements: { title: string; detail: string }[] = [
+  { title: 'SSIP Gujarat-Project manager', detail: 'My first ever Hackathon where I got to know how to represent your project on the problem given to you and how to represent yourself as per presentation point of view, I did a bit of Frontend development, Research work and Documentation of the project. Which logically means i mostly did Project Managing.' },
+  { title: 'Another one', detail: 'Same idea.' },
+]
